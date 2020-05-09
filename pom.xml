@@ -12,12 +12,12 @@
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<scm.base>git@github.com:unity-idm/saml-types.git</scm.base>
+		<scm.base>github.com:unity-idm/saml-types.git</scm.base>
 	</properties>
 
 	<scm>
-		<connection>${scm.base}</connection>
-		<developerConnection>${scm.base}</developerConnection>
+		<connection>scm:git:git://${scm.base}</connection>
+		<developerConnection>scm:git:ssh://git@${scm.base}</developerConnection>
 		<url>https://github.com/unity-idm/saml-types</url>
 	</scm>
 	
