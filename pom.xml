@@ -15,7 +15,7 @@
 
 	<scm>
 		<connection>scm:git:git://github.com/unity-idm/saml-types.git</connection>
-		<developerConnection>scm:git:ssh://git@github.com:unity-idm/saml-types.git</developerConnection>
+		<developerConnection>scm:git:ssh://git@github.com/unity-idm/saml-types.git</developerConnection>
 		<url>https://github.com/unity-idm/saml-types</url>
 	  <tag>samly2-coretypes-1.3.0</tag>
   </scm>
