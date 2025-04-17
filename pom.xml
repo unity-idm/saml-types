@@ -108,6 +108,24 @@
           <autoReleaseAfterClose>true</autoReleaseAfterClose>
         </configuration>
       </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.6.3</version>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+              <configuration>
+                <additionalJOption>-Xdoclint:none</additionalJOption>
+                <failOnError>false</failOnError>
+                <excludePackageNames>*</excludePackageNames>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
     </plugins>
   </build>
 </project>
